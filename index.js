@@ -3,7 +3,7 @@ const fs = require('fs'); // filesystem - global access without npm
 const request = require('request')
 const _ = require('lodash'); // for random
 
-const TOKEN = os.environ.get('API_TOKEN')
+const TOKEN = os.environ.get('TOKEN')
 const bot = new TelegramBot(TOKEN, {polling: true});
 
 const KB = {
